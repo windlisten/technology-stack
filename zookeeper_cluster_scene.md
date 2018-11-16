@@ -41,7 +41,7 @@ ZooKeeper具有以下两大特性。
 
 ## 注册收集器机器
         使用ZooKeeper来进行日志系统收集器的注册，典型做法是在ZooKeeper上创建一个节点作为收集器的根节点，例如/logs/collector（下文我们以“收集器节点”，代表该数据节点），每个收集器机器在启动的时候，都会在收集器节点下创建自己的节点，例如/logs/collector/[Hostname]，如下图所示。
-![p1](https://img-blog.csdn.net/20171214144411064)
+![p_1](https://img-blog.csdn.net/20171214144411064)
  
 
 ## 任务分发
