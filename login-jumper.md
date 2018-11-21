@@ -3,7 +3,8 @@
 
 ## 安装expect 
 - mac brew insatll expect
-- liunx 先安装tcl apt-get install tcl 再安装expect apt-get install expect
+- liunx 先安装tcl apt-get install tcl 
+-- 再安装expect apt-get install expect
 
 ## 编辑登录跳板机脚本 login_jumper.sh
 ```shell
@@ -20,12 +21,12 @@ set jumper_password         私钥密码
 # 接收脚本传入参数：登录目标服务器地址（可以是IP地址，也可以是：t、r、x、p...）
 set to_env [lindex $argv 0 ]
 switch $to_env {
-    "t" { set ip "10.8.64.35"  }
-    "r" { set ip "10.8.82.11"  }
-    "x" { set ip "10.8.72.15"  }
-    "p" { set ip "10.24.64.47" }
-    "p1" { set ip "10.24.64.91" }
-    "p2" { set ip "10.24.64.92" }
+    "t" { set ip "*.*.*.*"  }
+    "r" { set ip "*.*.*.*"  }
+    "x" { set ip "*.*.*.*"  }
+    "p" { set ip "*.*.*.*" }
+    "p1" { set ip "*.*.*.*" }
+    "p2" { set ip "*.*.*.*" }
     default { set ip $to_env }
 }
 
