@@ -60,7 +60,10 @@ alias jump='/your_path/login-jump.sh'
 $ source ~/.bash_aliases
 ```
 
-
+## 验收,直接输入 jump t 命令即可登录t环境
+```
+$ jumpe t
+```
 
 
 
