@@ -8,7 +8,6 @@
 
 ## 编辑登录跳板机脚本 login_jumper.sh
 ```shell
-~
 #!/usr/bin/expect
 
 # 配置信息
