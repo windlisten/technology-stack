@@ -3,8 +3,8 @@
 
 ## 安装expect 
 - mac brew insatll expect
-- liunx 先安装tcl apt-get install tcl 
--- 再安装expect apt-get install expect
+- liunx 先安装tcl: apt-get install tcl     
+再安装expect: apt-get install expect
 
 ## 编辑登录跳板机脚本 login_jumper.sh
 ```shell
