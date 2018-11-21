@@ -1,5 +1,5 @@
-# 基于 Expect 实现跳板机一键登录
-> Expect是一个自动交互功能的工具。expect原理是开了一个子进程，通过spawn来执行shell脚本，监测到脚本的返回结果，通过expect判断要进行的交互输入内容（send）。
+# 基于 expect 实现跳板机一键登录
+> **expect**是一个自动交互功能的工具。**expect**原理是开了一个子进程，通过spawn来执行shell脚本，监测到脚本的返回结果，通过expect判断要进行的交互输入内容（send）。
 
 ## 安装expect 
 - mac brew insatll expect
